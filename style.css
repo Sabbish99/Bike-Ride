@@ -1,0 +1,26 @@
+.full-div {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+    background-color: #F0F8FF;
+
+}
+
+.btn-1 {
+    background-color: #C61B1E;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 12px 0px 12px 0px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 16px;
+}
+
+.header-list {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    font-family: "Poppins", sans-serif;
+}
