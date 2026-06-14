@@ -1,26 +1,129 @@
-.full-div {
-    border: 2px solid red;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 120px;
-    background-color: #F0F8FF;
+ * {
+     padding: 0px;
+     margin: 0px;
+ }
 
-}
 
-.btn-1 {
-    background-color: #C61B1E;
-    color: white;
-    border: none;
-    padding: 14px 28px;
-    border-radius: 12px 0px 12px 0px;
-    font-family: "Orbitron", sans-serif;
-    font-size: 16px;
-}
+ body {
+     padding: 24px 120px;
+ }
 
-.header-list {
-    list-style-type: none;
-    display: flex;
-    gap: 40px;
-    font-family: "Poppins", sans-serif;
-}
+
+ /* this is header section */
+
+ .div-1 {
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 24px 36px;
+     background-color: #F0F8FF;
+     border-radius: 32px 0px 32px 0px;
+
+ }
+
+ .btn-1 {
+     background-color: #C61B1E;
+     color: white;
+     border: none;
+     padding: 14px 28px;
+     border-radius: 12px 0px 12px 0px;
+     font-family: "Orbitron", sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+ }
+
+ .header-list {
+     list-style-type: none;
+     display: flex;
+     gap: 40px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 400;
+     font-size: 20px;
+ }
+
+ .home-text {
+     color: #C61B1E;
+     font-weight: 700;
+ }
+
+ .bar-icon {
+     display: none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width:568px) {
+     * {
+         padding: 0px;
+         margin: 0px;
+     }
+
+     body {
+         padding: 16px;
+     }
+
+     /* this is header section */
+
+     .div-1 {
+
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 12px 12px;
+         background-color: #F0F8FF;
+         border-radius: 20px 0px 20px 0px;
+
+     }
+
+     .logo {
+         height: 50px;
+     }
+
+     .btn-1 {
+         background-color: #C61B1E;
+         color: white;
+         border: none;
+         padding: 14px 28px;
+         border-radius: 12px 0px 12px 0px;
+         font-family: "Orbitron", sans-serif;
+         font-size: 16px;
+         font-weight: 500;
+         display: none;
+     }
+
+     .header-list {
+         list-style-type: none;
+         display: flex;
+         gap: 40px;
+         font-family: "Poppins", sans-serif;
+         font-weight: 400;
+         font-size: 20px;
+         display: none;
+     }
+
+     .home-text {
+         color: #C61B1E;
+         font-weight: 700;
+     }
+
+     .bar-icon {
+         display: inline;
+     }
+
+
+ }
