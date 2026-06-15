@@ -106,6 +106,108 @@
  }
 
 
+ /* featured bikes  */
+ .featured-bikes-section {
+     margin-top: 80px;
+ }
+
+ .featured-bikes {
+     /* border: 1px solid red; */
+     text-align: center;
+     margin-bottom: 40px;
+
+ }
+
+ .featured-bikes h1 {
+     font-size: 44px;
+     font-weight: 600;
+ }
+
+ .featured-bikes p {
+     font-size: 16px;
+     font-weight: 500;
+     color: #696969;
+ }
+
+ .common-card {
+
+     display: flex;
+     flex-direction: column;
+     gap: 12px;
+     border-radius: 32px 0px 32px 0px;
+     width: auto;
+     border: 1px solid #ececec;
+     padding: 16px;
+
+ }
+
+ .common-card h2 {
+     font-size: 24px;
+     font-weight: 600;
+
+ }
+
+ .featured-info {
+     display: flex;
+     gap: 4px;
+ }
+
+ .common-card-p-1 {
+     font-size: 16px;
+     font-weight: 400;
+
+ }
+
+ .card-star {
+     display: flex;
+     gap: 4px;
+     color: #FFC107;
+ }
+
+ .card-review-section {
+     display: flex;
+     align-items: center;
+     gap: 12px;
+ }
+
+ .rating {
+     font-weight: 600;
+ }
+
+ .available-stock {
+     background-color: #E3F7E9;
+     color: #089B1B;
+     border: none;
+     border-radius: 8px 0px 8px 0px;
+     padding: 4px 8px;
+ }
+
+ .card-footer {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .card-image {
+     width: 100%;
+ }
+
+ .card-gap {
+     display: flex;
+     flex-direction: column;
+     gap: 8px;
+ }
+
+ .full-card {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 20px;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+
+
 
 
 
@@ -216,6 +318,116 @@
 
      .hero-para {
          margin-bottom: 12px;
+     }
+
+
+
+
+
+     /* featured bikes  */
+     .featured-bikes-section {
+         margin-top: 40px;
+     }
+
+     .featured-bikes {
+         /* border: 1px solid red; */
+         text-align: center;
+         margin-bottom: 20px;
+
+     }
+
+     .featured-bikes h1 {
+         font-size: 32px;
+         font-weight: 500;
+     }
+
+     .featured-bikes p {
+         font-size: 12px;
+         font-weight: 400;
+         color: #696969;
+     }
+
+     .common-card {
+
+         display: flex;
+         flex-direction: column;
+         gap: 12px;
+         border-radius: 16px 0px 16px 0px;
+         width: auto;
+         border: 1px solid #ececec;
+         padding: 12px;
+
+     }
+
+     .common-card h2 {
+         font-size: 20px;
+         font-weight: 500;
+
+     }
+
+     .featured-info {
+         display: flex;
+         gap: 4px;
+     }
+
+     .common-card-p-1 {
+         font-size: 12px;
+         font-weight: 400;
+
+     }
+
+     .card-star {
+         display: flex;
+         gap: 4px;
+         color: #FFC107;
+     }
+
+     .card-review-section {
+         display: flex;
+         align-items: center;
+         gap: 12px;
+
+     }
+
+     .rating {
+         font-weight: 600;
+     }
+
+     .available-stock {
+         font-size: 10px;
+         background-color: #E3F7E9;
+         color: #089B1B;
+         border: none;
+         border-radius: 8px 0px 8px 0px;
+         padding: 4px 8px;
+     }
+
+     .card-footer {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+     }
+
+     .card-footer h1 {
+         font-size: 18px;
+     }
+
+     .card-image {
+         width: 100%;
+     }
+
+     .card-gap {
+         display: flex;
+         flex-direction: column;
+         gap: 8px;
+     }
+
+     .full-card {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         gap: 20px;
+         justify-content: space-between;
+         align-items: center;
      }
 
 
