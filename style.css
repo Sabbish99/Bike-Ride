@@ -23,6 +23,7 @@
 
  body {
      padding: 24px 120px;
+     background-color: #FFFFFA;
  }
 
 
@@ -138,6 +139,7 @@
      width: auto;
      border: 1px solid #ececec;
      padding: 16px;
+     background-color: white;
 
  }
 
