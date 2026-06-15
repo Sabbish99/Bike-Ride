@@ -3,10 +3,33 @@
      margin: 0px;
  }
 
+ .orbitron-text {
+     font-family: "Orbitron", sans-serif;
+ }
+
+ .poppins-text {
+     font-family: "Poppins", sans-serif;
+ }
+
+ .common-btn {
+     background-color: #C61B1E;
+     color: white;
+     border: none;
+     padding: 14px 28px;
+     border-radius: 12px 0px 12px 0px;
+     font-size: 16px;
+     font-weight: 500;
+ }
 
  body {
      padding: 24px 120px;
  }
+
+
+
+
+
+
 
 
  /* this is header section */
@@ -22,16 +45,7 @@
 
  }
 
- .btn-1 {
-     background-color: #C61B1E;
-     color: white;
-     border: none;
-     padding: 14px 28px;
-     border-radius: 12px 0px 12px 0px;
-     font-family: "Orbitron", sans-serif;
-     font-size: 16px;
-     font-weight: 500;
- }
+
 
  .header-list {
      list-style-type: none;
@@ -51,6 +65,45 @@
      display: none;
  }
 
+ /* hero section design startssssssssssssssssssssssssss */
+
+ .hero-section {
+     /* border: 1px solid red; */
+     margin-top: 20px;
+     border-radius: 32px 0px 32px 0px;
+     padding-left: 50px;
+     background-image: url('/image/hero_image.png');
+     background-repeat: no-repeat;
+     background-position-x: right;
+     background-position-y: bottom;
+     height: 650px;
+     background-color: #EDEDED;
+     display: flex;
+     align-items: center;
+ }
+
+
+
+ .hero-section p {
+     font-size: 20px;
+     font-weight: 500;
+     color: #616161;
+ }
+
+ .hero-section-red-text {
+     color: #C61B1E;
+
+ }
+
+ .hero-div {
+     font-size: 60px;
+     font-weight: 600;
+     margin-bottom: 16px;
+ }
+
+ .hero-para {
+     margin-bottom: 32px;
+ }
 
 
 
@@ -59,10 +112,7 @@
 
 
 
-
-
-
-
+ /* responsive design start */
 
 
 
@@ -94,16 +144,15 @@
          height: 50px;
      }
 
-     .btn-1 {
+
+     .common-btn {
          background-color: #C61B1E;
          color: white;
          border: none;
-         padding: 14px 28px;
+         padding: 12px 24px;
          border-radius: 12px 0px 12px 0px;
-         font-family: "Orbitron", sans-serif;
-         font-size: 16px;
-         font-weight: 500;
-         display: none;
+         font-size: 12px;
+         font-weight: 400;
      }
 
      .header-list {
@@ -122,8 +171,55 @@
      }
 
      .bar-icon {
-         display: inline;
+         display: none;
      }
+
+
+     /* hero section start */
+
+     .hero-section {
+         /* border: 1px solid red; */
+         margin-top: 12px;
+         border-radius: 20px 0px 20px 0px;
+         padding-left: 12px;
+         background-image: url('/image/hero_image.png');
+         background-repeat: no-repeat;
+         background-position-x: right;
+         background-position-y: bottom;
+         background-size: contain;
+         height: 50vh;
+         background-color: #EDEDED;
+         display: flex;
+         align-items: baseline;
+         padding-top: 12px;
+
+     }
+
+
+
+     .hero-section p {
+         font-size: 14px;
+         font-weight: 500;
+         color: #616161;
+     }
+
+     .hero-section-red-text {
+         color: #C61B1E;
+
+     }
+
+     .hero-div {
+         font-size: 24px;
+         font-weight: 600;
+         margin-bottom: 16px;
+     }
+
+     .hero-para {
+         margin-bottom: 12px;
+     }
+
+
+
 
 
  }
